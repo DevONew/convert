@@ -20,7 +20,7 @@ file_put_contents($outputFile, json_encode($data, JSON_PRETTY_PRINT | JSON_UNESC
 echo "변환 완료 → output.json 생성됨\n";
 
 
-// 병합 규칙
+// 병합할 지역 
 $mergeMap = [
     '인천광역시' => [
         ['names' => ['강화군', '옹진군'], 'merged' => '강화군옹진군'],
